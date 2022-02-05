@@ -1,0 +1,20 @@
+:root {
+  --main-font: 'IBM Plex Sans Thai Looped', sans-serif;
+  --main-color: rgb(222,221,216);
+  --sec-color: rgb(62,62,62);
+  --hover: rgb(251,121,89);
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  
+}
+
+.calculator  {
+  width: 245px;
+  height: 445px;
+  margin: 0 auto;
+  background-image: linear-gradient(135deg, rgb(56,56,56), rgb(0,0,0));
+  border-radius: 20px;
+}
