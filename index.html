@@ -15,35 +15,42 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div class="calculator">
-    <div class="calc-header">
-      <p class="calc-title">Calculator</p>
-      <p class="calc-history">50*2/</p>
-      <p class="calc-sumary">/</p>
-      <form action="">
-        <input type="text">
-        <div class="calc-number-container">
-          <div class="calc-num">7</div>
-          <div class="calc-num">8</div>
-          <div class="calc-num">9</div>
-          <div class="calc-num">/</div>
-          <div class="calc-num">4</div>
-          <div class="calc-num">5</div>
-          <div class="calc-num">6</div>
-          <div class="calc-num">*</div>
-          <div class="calc-num">1</div>
-          <div class="calc-num">2</div>
-          <div class="calc-num">3</div>
-          <div class="calc-num">+</div>
-          <div class="calc-num">.</div>
-          <div class="calc-num">0</div>
-          <div class="calc-num">=</div>
-          <div class="calc-num">-</div>
+  <section class="container">
+    <div class="calculator">
+      <div class="calc-header">
+        <h1 class="calc-title">Calculator</h1>
+        <div class="calc-display">
+          <p class="calc-history">50*2/</p>
+          <p class="calc-sumary">/</p>
         </div>
-        <button type="reset">clear</button>
-      </form>      
-    </div> 
-   
-  </div>
+      </div>
+      <div class="calc-container">
+        <form action="">
+          <input type="text">
+          <ul class="calc-number-container">
+            <li class="calc-num">7</li>
+            <li class="calc-num">8</li>
+            <li class="calc-num">9</li>
+            <li class="calc-num">/</li>
+            <li class="calc-num">4</li>
+            <li class="calc-num">5</li>
+            <li class="calc-num">6</li>
+            <li class="calc-num">*</li>
+            <li class="calc-num">1</li>
+            <li class="calc-num">2</li>
+            <li class="calc-num">3</li>
+            <li class="calc-num">+</li>
+            <li class="calc-num">.</li>
+            <li class="calc-num">0</li>
+            <li class="calc-num">=</li>
+            <li class="calc-num">-</li>
+          </ul>
+          <button class="btn-clear" type="reset">clear</button>
+        </form>
+      </div>
+    
+    
+    </div>
+  </section>
 </body>
 </html>
